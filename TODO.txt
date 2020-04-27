@@ -1,0 +1,5 @@
+handle the auto_swipe method to auto swipe properly
+make a method to send a random message to those who like me
+make a README file 
+try to make a test 
+upload to git 
