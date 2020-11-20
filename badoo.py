@@ -47,6 +47,14 @@ class BadooBot():
                     return 0
 
     def close_popup(self):
-        if self.like():
-            popup = self.browser.find_element_by_xpath('/html/body/aside/section/div[1]/div/div/section/div/div/div/div[2]/div')
-            popup.click()
+        popup = self.browser.find_element_by_xpath('/html/body/aside/section/div[1]/div/div/section/div/div/div/div[2]/div')
+        popup.click()
+
+
+    def send_crush(self):
+        crush = self.browser.find_element_by_xpath('//*[@id="mm_cc"]/div[1]/section/div/div[2]/div/div[3]/div[1]')
+        crush.click()
+
+    def crush_pop(self):
+        accept_btn = self.browser.find_element_by_xpath('/html/body/aside/section/div[1]/div/div[1]/section/div/div[2]/div')
+        accept_btn.click()
