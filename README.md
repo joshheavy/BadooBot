@@ -8,16 +8,21 @@ To clone and run this application, you'll need [Git](https://git-scm.com/) and [
 $ git clone https://github.com/joshheavy/BadooBot.git
 
 # Go into the repository
+```python
 $ cd BadooBot
+```
 
 # Install dependencies
+```python
 $ pip install pipenv
 $ pipenv install pipfile
+```
 
 
 # Run the app
+```python
 $ python -i badoo.py
-
+```
 
 ## Usage
 
