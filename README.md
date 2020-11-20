@@ -21,7 +21,7 @@ $ python -i badoo.py
 
 ## Usage
 
-```python
+```
 bot = BadooBot()
 bot.login()
 ```
